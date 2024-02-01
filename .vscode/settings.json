@@ -1,0 +1,25 @@
+{
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true,
+		"**/*.js": {
+			"when": "$(basename).ts"
+		},
+		"**/*.js.map": {
+			"when": "$(basename)"
+		}
+	},
+	"json.schemas": [
+		{
+			"fileMatch": [
+				"/test/queries/**"
+			]
+		}
+	],
+	"github-enterprise.uri": "https://github.students.cs.ubc.ca",
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	}
+}
